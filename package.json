@@ -2,7 +2,7 @@
   "name": "react-recipe-finder",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://github.com/fathima-haneena/react-recipe-finder.git",
+  "homepage": "https://fathima-haneena.github.io/react-recipe-finder.git",
   "dependencies": {
     "@material-ui/core": "^4.12.4",
     "@mui/material": "^6.1.6",
