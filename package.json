@@ -2,9 +2,8 @@
   "name": "react-recipe-finder",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://github.com/fathima-haneena/react-recipe-finder.git",
+  "homepage": "https://fathima-haneena.github.io/react-recipe-finder",
   "dependencies": {
-    "@material-ui/core": "^4.12.4",
     "@mui/material": "^6.1.6",
     "@testing-library/jest-dom": "^5.17.0",
     "@testing-library/react": "^13.4.0",
@@ -42,5 +41,8 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "@babel/plugin-proposal-private-property-in-object": "^7.21.11"
   }
 }

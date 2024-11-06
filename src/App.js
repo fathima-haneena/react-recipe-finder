@@ -3,10 +3,11 @@ import Axios from "axios";
 import {useState} from "react";
 import {RecipeListContainer, RecipeContainer, CoverImage, RecipeName, IngredientsText, SeeMoreText,SeeNewTab, Placeholder} from "./components/recipeComponent";
 import {Header, AppNameComponent, AppIconComponent, SearchComponent, SearchIconComponent, SearchInputComponent} from "./components/headerComponent";
-import Dialog from "@material-ui/core/Dialog";
-import DialogContent from "@material-ui/core/DialogContent";
-import DialogTitle from "@material-ui/core/DialogTitle";
-import DialogActions from "@material-ui/core/DialogActions";
+import Dialog from "@mui/material/Dialog";
+import DialogContent from "@mui/material/DialogContent";
+import DialogTitle from "@mui/material/DialogTitle";
+import DialogActions from "@mui/material/DialogActions";
+
 
 export const Container = styled.div`
 display: flex;
@@ -95,7 +96,8 @@ function App() {
       <Container>
       < Header>
         <AppNameComponent>
-          <AppIconComponent src="/humburger.svg" alt=""/>
+         
+          <AppIconComponent src="/humburger.svg" alt="" />
         Recipe Finder
         </AppNameComponent>
         <SearchComponent>
