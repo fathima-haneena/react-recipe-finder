@@ -2,7 +2,9 @@
   "name": "react-recipe-finder",
   "version": "0.1.0",
   "private": true,
+
   "homepage": "https://fathima-haneena.github.io/react-recipe-finder",
+
   "dependencies": {
     "@mui/material": "^6.1.6",
     "@testing-library/jest-dom": "^5.17.0",
